@@ -9,6 +9,7 @@
             </div>
         </div>
         <div class="task__body">
+            <input type="text">
             <div class="task__body__row" v-for="task in taskList.tasks" :key="task.id">
                 <div class="task__body__row__left">
                  <div class="task__icon"></div>
